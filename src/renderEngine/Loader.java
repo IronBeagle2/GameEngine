@@ -54,7 +54,7 @@ public class Loader {
 		for (int vbo : vbos) {
 			GL30.glDeleteVertexArrays(vbo);
 		}
-		for (int texture:textures) {
+		for (int texture : textures) {
 			GL11.glDeleteTextures(texture);
 		}
 	}
